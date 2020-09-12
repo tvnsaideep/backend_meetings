@@ -6,15 +6,15 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const appConfig = require("./config/appConfig");
 const fs = require('fs');
-const logger = require('./app/libs/loggerLib');
+const logger = require('./files/libs/loggerLib');
 //Install mongoose, before
 //onst mongoose = require('mongoose');
 //set CORS 
-const libsPath = './app/libs';
-const middlewaresPath = './app/middlewares';
-const controllersPath = './app/controllers';
-const modelsPath = './app/models';
-const routesPath = './app/routes';
+const libsPath = './files/libs';
+const middlewaresPath = './files/middlewares';
+const controllersPath = './files/controllers';
+const modelsPath = './files/models';
+const routesPath = './files/routes';
 
 /**
  * database

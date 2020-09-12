@@ -60,6 +60,6 @@ console.log(appConfig.port);
 
 
 // socket io connection handler 
-const socketLib = require("./app/libs/socketLib");
+const socketLib = require("./files/libs/socketLib");
 const socketServer = socketLib.setServer(server);
 // end socketio connection handler
